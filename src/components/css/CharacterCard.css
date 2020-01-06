@@ -1,0 +1,23 @@
+.CharacterCard{
+    width: 230px;
+    height: 230px;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+
+.CharacterCard__name-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #212121;
+    opacity: 0.9;
+    height: 36px;
+    bottom: 0;
+}
+
+.character__name{ 
+    color: white;
+}
